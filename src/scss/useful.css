@@ -1,0 +1,209 @@
+.df {
+  display: flex;
+}
+
+.db {
+  display: block;
+}
+
+.jcs {
+  justify-content: start;
+}
+
+
+.jcfe {
+  justify-content: flex-end;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.jcsa {
+  justify-content: space-around;
+}
+
+.jcse {
+  justify-content: space-evenly;
+}
+
+.fww {
+  flex-wrap: wrap;
+}
+
+.fwwr {
+  flex-flow: wrap-reverse;
+}
+
+.aic {
+  align-items: center;
+}
+
+.acc {
+  align-content: center;
+}
+
+.aife {
+  align-items: flex-end;
+}
+
+.ffrw {
+  flex-flow: row wrap;
+}
+
+.ffcw {
+  flex-flow: column wrap;
+}
+
+/* flex設定 END */
+
+.h1 {
+  font-size: 48px;
+}
+
+.h2 {
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+.h4 {
+  font-size: 20px;
+}
+
+.h5 {
+  font-size: 18px;
+}
+
+.h6 {
+  font-size: 16px;
+}
+
+.h7 {
+  font-size: 12px;
+}
+
+.h29 {
+  font-size: 29px;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.tac {
+  text-align: center;
+}
+
+.ma {
+  margin: 0 auto;
+}
+
+.mab16 {
+  margin-bottom: 16px;
+}
+
+.mab8 {
+  margin-bottom: 8px;
+}
+
+.mab24 {
+  margin-bottom: 24px;
+}
+
+.mat24 {
+  margin-top: 24px;
+}
+
+.mat60 {
+  margin-top: 60px;
+}
+
+.mab48 {
+  margin-bottom: 48px;
+}
+
+.mat104 {
+  margin-top: 104px;
+}
+
+.mat214 {
+  margin-top: 214px;
+}
+
+.mab104 {
+  margin-bottom: 104px;
+}
+
+.mal32 {
+  margin-left: 32px;
+}
+
+.matb24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.mat16b24 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.mal139 {
+  margin-left: 75px;
+}
+
+.matb16 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.lineh {
+  line-height: 70px;
+}
+
+.wrap {
+  font-family: "Noto Sans TC";
+}
+
+.r {
+  background-color: red;
+}
+
+.b {
+  background-color: blue;
+}
+
+.g {
+  background-color: green;
+}
+
+.bn {
+  color: #56c4c5;
+}
+
+.swg {
+  color: #3F5D45;
+}
+
+.fw {
+  color: #FFFFFF;
+}
+
+.-dn {
+  display: none;
+}

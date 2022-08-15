@@ -1,0 +1,66 @@
+body {
+  background-color: $maincolor;
+}
+
+.wrap {
+
+  width: 80%;
+  margin: 87px auto;
+
+
+  .m-loginimg {
+    @include mobile {
+      margin-bottom: 18px;
+    }
+
+    .desktop-img {
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .mobile-img {
+      @include mobile {
+        display: block;
+      }
+    }
+  }
+
+
+
+
+  .input {
+    padding: 12px 16px;
+    gap: 10px;
+
+    width: 304px;
+    height: 47px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+  }
+
+  .btn {
+    padding: 12px 48px;
+    width: 128px;
+    height: 47px;
+    background: #333333;
+    border-radius: 10px;
+    margin: 24px auto;
+    color: aliceblue;
+  }
+
+  .inputtitle {
+    margin: 20px 0px 4px;
+  }
+
+  .registeraccount {
+    color: #333333;
+  }
+
+  .announcetext {
+    color: red;
+    margin-top: 8px;
+  }
+
+}

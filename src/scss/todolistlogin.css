@@ -1,0 +1,347 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.df {
+  display: flex;
+}
+
+.db {
+  display: block;
+}
+
+.jcs {
+  justify-content: start;
+}
+
+.jcfe {
+  justify-content: flex-end;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.jcsa {
+  justify-content: space-around;
+}
+
+.jcse {
+  justify-content: space-evenly;
+}
+
+.fww {
+  flex-wrap: wrap;
+}
+
+.fwwr {
+  flex-flow: wrap-reverse;
+}
+
+.aic {
+  align-items: center;
+}
+
+.acc {
+  align-content: center;
+}
+
+.aife {
+  align-items: flex-end;
+}
+
+.ffrw {
+  flex-flow: row wrap;
+}
+
+.ffcw {
+  flex-flow: column wrap;
+}
+
+/* flex設定 END */
+.h1 {
+  font-size: 48px;
+}
+
+.h2 {
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+.h4 {
+  font-size: 20px;
+}
+
+.h5 {
+  font-size: 18px;
+}
+
+.h6 {
+  font-size: 16px;
+}
+
+.h7 {
+  font-size: 12px;
+}
+
+.h29 {
+  font-size: 29px;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.fsi {
+  font-style: italic;
+}
+
+.tac {
+  text-align: center;
+}
+
+.ma {
+  margin: 0 auto;
+}
+
+.wrap {
+  font-family: "Roboto", sans-serif;
+}
+
+.r {
+  background-color: red;
+}
+
+.b {
+  background-color: blue;
+}
+
+.g {
+  background-color: green;
+}
+
+.bn {
+  color: #56c4c5;
+}
+
+.swg {
+  color: #3F5D45;
+}
+
+.fw {
+  color: #FFFFFF;
+}
+
+.-dn {
+  display: none;
+}
+
+body {
+  background-color: #FFD370;
+}
+
+.wrap {
+  width: 80%;
+  margin: 87px auto;
+}
+@media (max-width: 568px) {
+  .wrap .m-loginimg {
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 568px) {
+  .wrap .m-loginimg .desktop-img {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .wrap .m-loginimg .mobile-img {
+    display: block;
+  }
+}
+.wrap .input {
+  padding: 12px 16px;
+  gap: 10px;
+  width: 304px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.wrap .btn {
+  padding: 12px 48px;
+  width: 128px;
+  height: 47px;
+  background: #333333;
+  border-radius: 10px;
+  margin: 24px auto;
+  color: aliceblue;
+}
+.wrap .inputtitle {
+  margin: 20px 0px 4px;
+}
+.wrap .registeraccount {
+  color: #333333;
+}
+.wrap .announcetext {
+  color: red;
+  margin-top: 8px;
+}/*# sourceMappingURL=todolistlogin.css.map */
